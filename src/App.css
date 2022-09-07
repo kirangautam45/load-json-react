@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #f4e04d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9a1c0e;
+}
+
+.stock-container {
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-top: 48px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+td {
+  border: 0.5px solid gold;
+  width: 200px;
+}
