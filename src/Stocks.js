@@ -14,10 +14,10 @@ export const Stocks = () => {
             <div key={key}>
               <Stock
                 key={key}
-                company={data.company}
-                ticker={data.ticker}
-                stockPrice={data.stockPrice}
-                timeElapsed={data.timeElapsed}
+                company={data.company.trim()}
+                ticker={data.ticker.trim()}
+                stockPrice={data.stockPrice.trim()}
+                timeElapsed={data.timeElapsed.trim()}
               />
             </div>
           );
